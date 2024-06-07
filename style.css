@@ -1,0 +1,21 @@
+header {
+    position: sticky;
+    top: 0;
+    color: white;
+}
+
+header h1 {
+    background-color: #099d8d;
+    text-align: center;
+    padding: 15px 0;
+}
+
+header ul {
+    background-color: #14d9c4;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    font-family: Rubik;
+    justify-content: space-between;
+    padding: 8px 16px; 
+}
