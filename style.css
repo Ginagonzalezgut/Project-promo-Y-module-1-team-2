@@ -42,3 +42,50 @@ header ul {
     justify-content: space-between;
     padding: 8px 16px; 
 }
+
+.nombre{
+  color:
+  #b8b8b9;
+ font-size: 14px;
+ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-weight: lighter;
+ text-align: center;
+ padding:18px;  
+}
+
+.equipo{
+  color:#54585a;
+  font-size:14px; 
+  font-weight:600;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  padding: 4px;
+}
+
+.quienes{
+  color:#54585a;
+  font-size:14px; 
+  font-weight:600;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  padding: 4px;
+}
+
+.contacto{
+  color:#54585a;
+  font-size:14px; 
+  font-weight:600;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  padding: 4px;
+}
+
+.imagen {
+  width:114px; 
+}
+
+.footer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
