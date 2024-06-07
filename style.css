@@ -1,27 +1,21 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
     position: sticky;
     top: 0;
-}
-
-h1 {
-    background-color: #099d8d;
-    margin: 0;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
-ul {
+header h1 {
+    background-color: #099d8d;
+    text-align: center;
+    padding: 15px 0;
+}
+
+header ul {
     background-color: #14d9c4;
     display: flex;
-    gap: 20px;
+    gap: 10px;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content: flex-end;
-    color: white
-    
+    font-family: Rubik;
+    justify-content: space-between;
+    padding: 8px 16px; 
 }

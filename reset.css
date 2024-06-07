@@ -1,9 +1,14 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    
+    font-family: "OpenSans", system-ui, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 ul {
     list-style-type: none;
+}
+header, h1, h2, h3 {
+    font-family: "Rubik", system-ui, sans-serif;
 }
