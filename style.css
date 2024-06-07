@@ -1,0 +1,23 @@
+
+header {
+    flex-direction: nowrap;
+}
+
+h1 {
+    background-color: #099d8d;
+    margin: 0;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+   
+}
+ul {
+    background-color: #14d9c4;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: end;
+    color: white
+    
+}
