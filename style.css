@@ -1,0 +1,21 @@
+.hero{
+  background-image: url(https://media.istockphoto.com/id/1346944001/es/foto/primer-plano-de-compa%C3%B1eros-de-trabajo-apilando-sus-manos-juntas.jpg?s=1024x1024&w=is&k=20&c=adIfBPDInV56VB8QQlL0znURMMOX3AgoOeIJxRCUY6M=);
+  height: 421px;
+  background-position: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  
+}
+.slogan{
+  padding: 15px;
+  width: 290px;
+  height: 80px;
+  background-color:#ffffff;
+  position: relative;
+  top:40px;
+  line-height: 1.39;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
