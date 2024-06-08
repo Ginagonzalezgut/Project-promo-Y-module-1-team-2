@@ -1,3 +1,20 @@
+
+/*variables que se usaran en todo el proyecto*/
+:root {
+  --heading-font: "Rubik", system-ui, sans-serif;
+  --theme-font: "Open Sans", system-ui, sans-serif;
+
+  --heading-color: #000;
+
+  --text-primary-color: #54585a;
+  --text-secundary-color: #b8b8b9;
+
+  --header-background-color: #099d8d;
+  --header-color: #FFF;
+  --nav-background-color: #14d9c4;
+  --nav-color: #FFF;
+}
+
 .hero{
   background-image: url(./images/Foto-equipo.png);
   height: 421px;
@@ -28,13 +45,13 @@ header {
 }
 
 header h1 {
-    background-color: #099d8d;
+    background-color: var(--header-background-color);
     text-align: center;
     padding: 15px 0;
 }
 
 header ul {
-    background-color: #14d9c4;
+    background-color:var(--nav-background-color);
     display: flex;
     gap: 10px;
     padding: 0;
