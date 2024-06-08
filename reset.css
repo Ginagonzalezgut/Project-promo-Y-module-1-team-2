@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: "OpenSans", system-ui, sans-serif;
+    font-family: var(--theme-font);
     font-size: 15px;
     font-weight: 500;
 }
