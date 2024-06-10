@@ -138,8 +138,8 @@ header ul {
 }
 
 .person img {
-  width: 180px;
-  height: 180px;
+  width: 10px;
+  height: 10px;
   border-radius: 4px;
   border: solid 5px var(--black-8);
 }
