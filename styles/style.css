@@ -112,19 +112,15 @@ header ul {
   flex-direction: column;
   align-items: center;
 }
-<<<<<<< HEAD
-=======
-
-<<<<<<< HEAD
 .section {
   display: inline-block;
   margin: auto;
+ }
 
-=======
+
 #quienes-somos {
   margin: 20px auto;
   width: 400px;
->>>>>>> 4906e37b23efad2c184a44cd3fdee8832ec9f929
 }
 
 .tittle-section {
