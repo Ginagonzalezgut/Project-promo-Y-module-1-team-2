@@ -60,6 +60,9 @@ header ul {
     padding: 8px 16px; 
 }
 
+/*footer*/
+
+
 .nombre{
   color:
   #b8b8b9;
@@ -98,7 +101,7 @@ header ul {
 }
 
 .imagen {
-  width:114px; 
+  width:114px;
 }
 
 .footer{
@@ -106,3 +109,14 @@ header ul {
   flex-direction: column;
   align-items: center;
 }
+/*media responsive footer*/
+
+@media(min-width:768px){
+  .nombre{
+
+    }
+  .equipo{
+
+  }
+  }
+
