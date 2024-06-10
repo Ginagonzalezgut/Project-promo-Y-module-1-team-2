@@ -139,11 +139,12 @@ header ul {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   align-items: last baseline;
 }
+/* quitar
 .header {
   align-items: center;
   padding-left: 200px;
   padding-right: 200px;
-}
+}*/ 
 
 
 
