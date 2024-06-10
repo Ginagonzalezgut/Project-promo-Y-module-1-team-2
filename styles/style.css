@@ -60,6 +60,9 @@ header ul {
   font-size: 0.9rem;
 }
 
+/*footer*/
+
+
 .nombre {
   color: #b8b8b9;
   font-size: 14px;
@@ -101,7 +104,7 @@ header ul {
 }
 
 .imagen {
-  width: 114px;
+  width:114px; 
 }
 
 .footer {
@@ -109,6 +112,8 @@ header ul {
   flex-direction: column;
   align-items: center;
 }
+<<<<<<< HEAD
+=======
 
 <<<<<<< HEAD
 .section {
@@ -214,3 +219,4 @@ header ul {
     padding:16px 45px;
   }
 }
+>>>>>>> 4906e37b23efad2c184a44cd3fdee8832ec9f929
