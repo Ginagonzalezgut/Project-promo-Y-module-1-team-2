@@ -82,7 +82,7 @@ footer nav ul li {
 }
 
 footer img {
-  width: 114px;
+  width: 115.9px;
 }
 
 footer {
@@ -182,15 +182,18 @@ footer {
   header ul {
     background-color: transparent;
   }
+
   footer{
     position:relative;
-    display:block
+    display:block;
   }
+
   footer nav{
     position: absolute;
     top:0;
     right:0;
   }
+
   footer h2 {
     text-align:left;
     padding: 15px;
