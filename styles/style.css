@@ -45,14 +45,14 @@ header {
 }
 
 header h1 {
-  background-color: rgb(9, 157, 141);
+  background-color: rgb(9, 157, 141, 0.95);
   text-align: center;
   padding: 15px 0;
   font-size: 0.9rem;
 }
 
 header ul {
-  background-color: rgb(20, 217, 196);
+  background-color: rgb(20, 217, 196, 0.9);
   display: flex;
   gap: 10px;
   font-family: var(--header-color);
