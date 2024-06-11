@@ -64,7 +64,7 @@ header ul {
 /*footer*/
 
 footer h2{
-  color: var(--text-primary-color); /*por algún motivo no funciona el color*/
+  color: var(--text-primary-color); 
   font-size: 14px;
   font-weight: 600;
   font-family:var(--theme-font);
@@ -73,7 +73,7 @@ footer h2{
 }
 
 footer nav ul li {
-  color: var(--text-primary-color); /*por algún motivo no funciona el color*/
+  color: var(--text-primary-color); 
   font-size: 14px;
   font-weight: 600;
   font-family: var(--theme-font);
@@ -86,7 +86,6 @@ footer img {
 }
 
 footer {
-  background-color: #099d8d;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -157,7 +156,7 @@ footer {
   color: #54585a;
 }
 
-/*main media responsive*/
+/*media responsive*/
 
 @media all and (min-width: 768px) {
   .hero {
