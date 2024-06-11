@@ -173,25 +173,29 @@ header ul {
   border-radius: 4px;
   border: solid 5px;
 }
+
+#quienes-somos {
+  margin-top: 50px
+}
+.container {
+  width: 290px;
+}
+.right p, .left p, .person h3 {
+  text-align: center;
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: normal;
+}
+.person  {
+  text-align: center;
+}
+ 
 /*main media responsive*/
 @media all and (min-width: 320px) {
-  #quienes-somos {
-    margin-top: 50px
-  }
-  .container {
-    width: 290px;
-  }
-  .right p, .left p, .person h3 {
-    text-align: center;
-    font-family: OpenSans;
-    font-style: normal;
-    font-weight: normal;
-  }
-  .person  {
-    text-align: center;
-  }
+ 
+ }
 
-}
+
 @media all and (min-width: 768px) {
   .hero {
     padding: 0 0 0 76px;
