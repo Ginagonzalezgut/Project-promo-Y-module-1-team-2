@@ -76,7 +76,7 @@ header ul {
   color: (var(--text-primary-color)); /*por algún motivo no funciona el color*/
   font-size: 14px;
   font-weight: 600;
-  font-family: (var(--theme-font)) 
+  font-family: (var(--theme-font));
   text-align: center;
   padding:2px;
 }
@@ -202,8 +202,7 @@ header ul {
   }
 }
 
-@media all and (min-width: 1200px)
-{
+@media all and (min-width: 1200px){
   header {
     display: flex;
     background-color: var(--header-background-color);
@@ -221,9 +220,7 @@ header ul {
     height: 170px;
     margin: 1240px 0 0;
     padding: 24px 45px 56px;
-  }
-
-@media all and (min-width: 1200px)
-{
   
+  }
 }
+
