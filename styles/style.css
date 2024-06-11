@@ -41,6 +41,7 @@ header {
   position: sticky;
   top: 0;
   color: white;
+  z-index: 1;
 }
 
 header h1 {
@@ -62,7 +63,6 @@ header ul {
 
 /*footer*/
 
-
 .nombre {
   color: (var(--text-secundary-color)); /*no funciona el color*/
   font-size: 14px;
@@ -76,9 +76,9 @@ header ul {
   color: (var(--text-primary-color)); /*por algún motivo no funciona el color*/
   font-size: 14px;
   font-weight: 600;
-  font-family: (var(--theme-font)) 
+  font-family: (var(--theme-font));
   text-align: center;
-  padding:2px;
+  padding: 2px;
 }
 
 .quienes {
@@ -100,12 +100,12 @@ header ul {
 }
 
 .imagen {
-  width:114px; 
+  width: 114px;
 }
 
 .footer {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -116,7 +116,6 @@ header ul {
   margin: auto;
 }
 
-
 #quienes-somos {
   width: 100%;
 }
@@ -124,7 +123,7 @@ header ul {
 .left {
   float: left;
 }
-.right{
+.right {
   float: right;
 }
 
@@ -175,7 +174,6 @@ header ul {
   color: #54585a;
 }
 
-
 /*main media responsive*/
 
 @media all and (min-width: 768px) {
@@ -196,7 +194,7 @@ header ul {
     background-color: var(--header-background-color);
     justify-content: space-between;
     align-items: center;
-    padding:16px 45px;
+    padding: 16px 45px;
   }
 
   header ul {
@@ -204,14 +202,13 @@ header ul {
   }
 }
 
-@media all and (min-width: 1200px)
-{
+@media all and (min-width: 1200px) {
   header {
     display: flex;
     background-color: var(--header-background-color);
     justify-content: space-between;
     align-items: center;
-    padding:16px 45px;
+    padding: 16px 45px;
   }
 }
 
@@ -224,8 +221,5 @@ header ul {
     margin: 1240px 0 0;
     padding: 24px 45px 56px;
   }
-
-@media all and (min-width: 1200px)
-{
-  
 }
+
