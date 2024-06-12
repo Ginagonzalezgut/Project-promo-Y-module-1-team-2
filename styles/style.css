@@ -62,50 +62,39 @@ header ul {
 
 /*footer*/
 
-.nombre {
-  color: (var(--text-secundary-color)); /*no funciona el color*/
+
+footer h2{
+  color: var(--text-primary-color); 
   font-size: 14px;
-  font-family: (var(--theme-font));
-  font-weight: lighter;
+  font-weight: 600;
+  font-family:var(--theme-font);
   text-align: center;
   padding: 55px;
+  margin:10px;
 }
 
-.equipo {
-  color: (var(--text-primary-color)); /*por algún motivo no funciona el color*/
+footer nav ul li {
+  color: var(--text-primary-color); 
   font-size: 14px;
   font-weight: 600;
-  font-family: (var(--theme-font));
+  font-family: var(--theme-font);
   text-align: center;
   padding: 2px;
 }
 
-.quienes {
-  color: (var(--text-primary-color));
-  font-size: 14px;
-  font-weight: 600;
-  font-family: (var(--theme-font));
-  text-align: center;
-  padding: 2px;
+footer img {
+  width: 115.9px;
+  margin:60px;
 }
 
-.contacto {
-  color: (var(--text-primary-color));
-  font-size: 14px;
-  font-weight: 600;
-  font-family: (var(--theme-font));
-  text-align: center;
-  padding: 2px;
-}
-
-.imagen {
-  width: 114px;
-}
-
-.footer {
+footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.rectangle{ /*no entiendo porque no se crea el rectángulo*/
+  border: var(--text-primary-color);
 }
 
 /*main*/
@@ -173,6 +162,7 @@ header ul {
   border: solid 5px;
 }
 
+<<<<<<< HEAD
 #quienes-somos {
   margin-top: 50px
 }
@@ -194,6 +184,9 @@ header ul {
  
  }
 
+=======
+/*media responsive*/
+>>>>>>> footer
 
 @media all and (min-width: 768px) {
   .hero {
@@ -219,6 +212,25 @@ header ul {
   header ul {
     background-color: transparent;
   }
+
+  footer{
+    position:relative;
+    display:block;
+  }
+
+  footer nav{
+    position: absolute;
+    top:0;
+    right:0;
+    
+
+  }
+
+  footer h2 {
+    text-align:left;
+    padding: 15px;
+    color: var(--text-secundary-color)
+  }
 }
 
 @media all and (min-width: 1200px) {
@@ -231,14 +243,7 @@ header ul {
   }
 }
 
-/*footer media responsive*/
 
-@media all and (min-width: 768px) {
-  .footer {
-    width: 768px;
-    height: 170px;
-    margin: 1240px 0 0;
-    padding: 24px 45px 56px;
-  }
-}
+
+
 
