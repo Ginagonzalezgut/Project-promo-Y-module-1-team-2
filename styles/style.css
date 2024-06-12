@@ -162,7 +162,7 @@ footer {
   border: solid 5px;
 }
 
-<<<<<<< HEAD
+
 #quienes-somos {
   margin-top: 50px
 }
@@ -177,16 +177,8 @@ footer {
 }
 .person  {
   text-align: center;
-}
- 
-/*main media responsive*/
-@media all and (min-width: 320px) {
- 
- }
+} 
 
-=======
-/*media responsive*/
->>>>>>> footer
 
 @media all and (min-width: 768px) {
   .hero {
