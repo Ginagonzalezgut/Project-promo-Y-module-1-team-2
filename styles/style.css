@@ -162,11 +162,6 @@ footer {
   border: solid 5px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 85e118ba73787cb2aeb6329b947bf788ebeda7d3
 #quienes-somos {
   margin-top: 50px
 }
@@ -182,13 +177,6 @@ footer {
 .person  {
   text-align: center;
 } 
-
-<<<<<<< HEAD
-=======
-/*media responsive*/
->>>>>>> header
-=======
->>>>>>> 85e118ba73787cb2aeb6329b947bf788ebeda7d3
 
 @media all and (min-width: 768px) {
   .hero {
