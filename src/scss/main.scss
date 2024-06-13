@@ -1,3 +1,6 @@
+
+@import 'layout/footer';
+
 /*variables que se usaran en todo el proyecto*/
 @import 'layout/hero';
 
@@ -39,43 +42,6 @@
     justify-content: space-between;
     padding: 8px 16px;
     font-size: 0.9rem;
-  }
-  
-  /*footer*/
-  
-  
-  footer h2{
-    color: var(--text-primary-color); 
-    font-size: 14px;
-    font-weight: 600;
-    font-family:var(--theme-font);
-    text-align: center;
-    padding: 55px;
-    margin:10px;
-  }
-  
-  footer nav ul li {
-    color: var(--text-primary-color); 
-    font-size: 14px;
-    font-weight: 600;
-    font-family: var(--theme-font);
-    text-align: center;
-    padding: 2px;
-  }
-  
-  footer img {
-    width: 115.9px;
-    margin:60px;
-  }
-  
-  footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .rectangle{ /*no entiendo porque no se crea el rectángulo*/
-    border: var(--text-primary-color);
   }
   
   /*main*/
@@ -184,26 +150,35 @@
       background-color: transparent;
     }
   
-    footer{
+    footer {
       position:relative;
       display:block;
+      border-top:1px solid var(--text-primary-color);
     }
   
-    footer nav{
+    footer nav {
       position: absolute;
       top:0;
       right:0;
-      
-  
+    }
+    footer ul {
+      margin: 45px;
+      line-height:30px;
+    }
+    footer nav ul li {
+      text-align: right;
+      font-size: 14px;
     }
   
     footer h2 {
       text-align:left;
-      padding: 15px;
-      color: var(--text-secundary-color)
+      color: var(--text-secundary-color);
+      font-size: 14px;
     }
-
-  
+    footer img{
+      margin-top: -40px;
+      margin-left: 65px;
+    }
   }
   
   @media all and (min-width: 1200px) {
