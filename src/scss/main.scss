@@ -1,3 +1,8 @@
+
+@import 'layout/footer';
+
+
+
 /*variables que se usaran en todo el proyecto*/
 :root {
     --heading-font: "Rubik", system-ui, sans-serif;
@@ -13,6 +18,7 @@
     --nav-background-color: #14d9c4;
     --nav-color: #fff;
   }
+
   
   .hero {
     background-image: url(../images/Foto-equipo.png);
@@ -58,39 +64,6 @@
     justify-content: space-between;
     padding: 8px 16px;
     font-size: 0.9rem;
-  }
-  
-  /*footer*/
-  
-  
-  footer h2{
-    color: var(--text-secundary-color); 
-    font-size: 14px;
-    font-weight: 600;
-    font-family:var(--theme-font);
-    text-align: center;
-    padding: 55px;
-    margin:10px;
-  }
-  
-  footer nav ul li {
-    color: var(--text-primary-color); 
-    font-size: 14px;
-    font-weight: 600;
-    font-family: var(--theme-font);
-    text-align: center;
-    padding: 2px;
-  }
-  
-  footer img {
-    width: 115.9px;
-    margin:100px;
-  }
-  
-  footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
   
   /*main*/
@@ -227,12 +200,7 @@
     footer img{
       margin-top: -40px;
       margin-left: 65px;
-
     }
-    
-
-    
-  
   }
   
   @media all and (min-width: 1200px) {
