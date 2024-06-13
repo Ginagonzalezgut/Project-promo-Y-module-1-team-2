@@ -1,4 +1,6 @@
 /*variables que se usaran en todo el proyecto*/
+@import 'layout/hero';
+
 :root {
     --heading-font: "Rubik", system-ui, sans-serif;
     --theme-font: "Open Sans", system-ui, sans-serif;
@@ -14,28 +16,7 @@
     --nav-color: #fff;
   }
   
-  .hero {
-    background-image: url(../images/Foto-equipo.png);
-    height: 421px;
-    background-position: center;
-    display: flex;
-    align-items: end;
-    justify-content: center;
-    background-size: cover;
-  }
-  .slogan {
-    padding: 15px;
-    width: 290px;
-    height: 80px;
-    background-color: #ffffff;
-    position: relative;
-    top: 40px;
-    line-height: 1.39;
-    font-size: 18px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    text-align: center;
-  }
+ 
   
   header {
     position: sticky;
