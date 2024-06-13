@@ -1,0 +1,28 @@
+#quienes-somos {
+    margin-top: 50px
+  }
+  .container {
+    width: 290px;
+  }
+  .right p, .left p, .person h3 {
+    text-align: center;
+    font-family: OpenSans;
+    font-style: normal;
+    font-weight: normal;
+  }
+  .person  {
+    text-align: center;
+  } 
+  
+  @media all and (min-width: 768px) {
+    .hero {
+      padding: 0 0 0 76px;
+      justify-content: start;
+    }
+  
+    .slogan {
+      background-color: rgba(255, 255, 255, 0.7);
+      width: 441px;
+      height: 80px;
+      top: 0;
+    }
