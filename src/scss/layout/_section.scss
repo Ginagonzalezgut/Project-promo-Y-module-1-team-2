@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .section {
     display: inline-block;
     margin: auto;
@@ -62,6 +63,9 @@
   }
   
   #quienes-somos {
+=======
+#quienes-somos {
+>>>>>>> section
     margin-top: 50px
   }
   .container {
@@ -76,4 +80,20 @@
   .person  {
     text-align: center;
   } 
+<<<<<<< HEAD
   
+=======
+  
+  @media all and (min-width: 768px) {
+    .hero {
+      padding: 0 0 0 76px;
+      justify-content: start;
+    }
+  
+    .slogan {
+      background-color: rgba(255, 255, 255, 0.7);
+      width: 441px;
+      height: 80px;
+      top: 0;
+    }
+>>>>>>> section
