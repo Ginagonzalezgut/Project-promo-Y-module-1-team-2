@@ -1,16 +1,3 @@
-// --heading-font: "Rubik", system-ui, sans-serif;
-// --theme-font: "Open Sans", system-ui, sans-serif;
-
-// --heading-color: #000;
-
-// --text-primary-color: #54585a;
-// --text-secundary-color: #b8b8b9;
-
-// --header-background-color: #099d8d;
-// --header-color: #fff;
-// --nav-background-color: #14d9c4;
-// --nav-color: #fff;
-
 $text-secundary-color: #b8b8b9;
 $header-background-color: #099d8d;
 $heading-font: "Rubik", system-ui, sans-serif;
@@ -18,30 +5,49 @@ $theme-font: "Open Sans", system-ui, sans-serif;
 $text-primary-color: #54585a;
 
 .strength {
-    background-color:$text-secundary-color;
-    height: 579px;
-    padding: 100px 15px;
+  align-items: center;
+  background-color: $text-secundary-color;
+  padding: 30px 15px 45px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  &__title {
+    color: $header-background-color;
+    font-size: 22px;
+    width: 290px;
+    line-height: 45px;
+    font-family: $heading-font;
+    margin-top: 30px;
+
+    @media (min-width: 768px) {
+      margin-top: 0;
+    }
+  }
+
+  &__section {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    text-align: center;
-   
-   
-    &__title {
-        color:$header-background-color;
-        font-size: 22px;
-        width:290px;
-        height: 45px;
-        padding: 15px;
-        font-family: $heading-font;
-        margin-top: 30px;
-    }
-    &__list{
-        font-size: 16px;
-        width: 290px;
-        height: 192px;
-        font-family:$theme-font;
-        color:$text-primary-color;
-    }
+  }
 
+  &__list {
+    font-size: 16px;
+    width: 290px;
+    font-family: $theme-font;
+    color: $text-primary-color;
+
+    @media (min-width: 1200px) {
+      width: 439px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    align-items: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 333px;
+    padding: 45px 0 60px;
+  }
 }
-    
