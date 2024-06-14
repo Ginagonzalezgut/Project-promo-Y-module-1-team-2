@@ -1,13 +1,15 @@
 header {
   position: sticky;
   top: 0;
-  color: white;
+  background-color: rgb(9, 157, 141, 0.9);
+  
 }
 
 header h1 {
   text-align: center;
   padding: 15px 0;
   font-size: 0.9rem;
+  color: white;
 }
 
 header ul {
