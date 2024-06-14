@@ -1,4 +1,4 @@
-$text-secundary-color: #b8b8b9;
+$text-secundary-color: #f1f1f1;
 $header-background-color: #099d8d;
 $heading-font: "Rubik", system-ui, sans-serif;
 $theme-font: "Open Sans", system-ui, sans-serif;
@@ -13,6 +13,19 @@ $text-primary-color: #54585a;
   text-align: center;
   position: relative;
   overflow: hidden;
+  font-weight: 400;
+  gap: 30px;
+
+  @media (min-width: 768px) {
+    align-items: start;
+    flex-direction: row;
+    justify-content: center;
+    padding: 45px 45px 60px;
+  }
+  @media (min-width: 1200px) {
+    padding: 45px 138px 60px;
+    gap: 45px;
+  }
 
   &__title {
     color: $header-background-color;
@@ -20,10 +33,9 @@ $text-primary-color: #54585a;
     width: 290px;
     line-height: 45px;
     font-family: $heading-font;
-    margin-top: 30px;
-
+    font-weight: 500;
     @media (min-width: 768px) {
-      margin-top: 0;
+      margin-bottom: 15px;
     }
   }
 
@@ -31,11 +43,12 @@ $text-primary-color: #54585a;
     align-items: center;
     display: flex;
     flex-direction: column;
+    flex: 1;
   }
 
   &__list {
     font-size: 16px;
-    width: 290px;
+    line-height: 1.5;
     font-family: $theme-font;
     color: $text-primary-color;
 
@@ -52,14 +65,5 @@ $text-primary-color: #54585a;
     display: flex;
     position: absolute;
     top: 0;
-  }
-
-  @media (min-width: 768px) {
-    align-items: start;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 333px;
-    padding: 45px 0 60px;
   }
 }
