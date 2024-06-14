@@ -1,6 +1,12 @@
+
+@import 'layout/footer';
 @import 'layout/header';
 
 /*variables que se usaran en todo el proyecto*/
+@import 'layout/hero';
+@import 'layout/section';
+
+
 :root {
     --heading-font: "Rubik", system-ui, sans-serif;
     --theme-font: "Open Sans", system-ui, sans-serif;
@@ -17,148 +23,9 @@
   }
 
   
-  .hero {
-    background-image: url(../images/Foto-equipo.png);
-    height: 421px;
-    background-position: center;
-    display: flex;
-    align-items: end;
-    justify-content: center;
-    background-size: cover;
-  }
-  .slogan {
-    padding: 15px;
-    width: 290px;
-    height: 80px;
-    background-color: #ffffff;
-    position: relative;
-    top: 40px;
-    line-height: 1.39;
-    font-size: 18px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    text-align: center;
-  }
+ 
   
   
-  
-  /*footer*/
-  
-  
-  footer h2{
-    color: var(--text-primary-color); 
-    font-size: 14px;
-    font-weight: 600;
-    font-family:var(--theme-font);
-    text-align: center;
-    padding: 55px;
-    margin:10px;
-  }
-  
-  footer nav ul li {
-    color: var(--text-primary-color); 
-    font-size: 14px;
-    font-weight: 600;
-    font-family: var(--theme-font);
-    text-align: center;
-    padding: 2px;
-  }
-  
-  footer img {
-    width: 115.9px;
-    margin:60px;
-  }
-  
-  footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .rectangle{ /*no entiendo porque no se crea el rectángulo*/
-    border: var(--text-primary-color);
-  }
-  
-  /*main*/
-  
-  .section {
-    display: inline-block;
-    margin: auto;
-  }
-  
-  #quienes-somos {
-    width: 100%;
-  }
-  
-  
-  .tittle-section {
-    font-family: "Rubik", system-ui, sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.88;
-    letter-spacing: normal;
-    text-align: center;
-    color: #099d8d;
-  }
-  
-  .container {
-    width: 800px;
-    margin: 20px auto;
-    display: block;
-  }
-  .person {
-    margin: 20px;
-  }
-  .right p {
-    text-align: right;
-  }
-  .left p {
-    text-align: left;
-  }
-  
-  .person img {
-    width: 180px;
-    border-radius: 4px;
-    border: solid 5px rgba(184, 184, 185, 0.1);
-  }
-  
-  .biografia {
-    font-family: OpenSans;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    color: #54585a;
-  }
-  .center {
-    text-align: center;
-  }
-  .rectangle {
-    width: 185px;
-    height: 185px;
-    border-radius: 4px;
-    border: solid 5px;
-  }
-  
-  #quienes-somos {
-    margin-top: 50px
-  }
-  .container {
-    width: 290px;
-  }
-  .right p, .left p, .person h3 {
-    text-align: center;
-    font-family: OpenSans;
-    font-style: normal;
-    font-weight: normal;
-  }
-  .person  {
-    text-align: center;
-  } 
   
   @media all and (min-width: 768px) {
     .hero {
@@ -185,26 +52,35 @@
       background-color: transparent;
     }
   
-    footer{
+    footer {
       position:relative;
       display:block;
+      border-top:1px solid var(--text-primary-color);
     }
   
-    footer nav{
+    footer nav {
       position: absolute;
       top:0;
       right:0;
-      
-  
+    }
+    footer ul {
+      margin: 45px;
+      line-height:30px;
+    }
+    footer nav ul li {
+      text-align: right;
+      font-size: 14px;
     }
   
     footer h2 {
       text-align:left;
-      padding: 15px;
-      color: var(--text-secundary-color)
+      color: var(--text-secundary-color);
+      font-size: 14px;
     }
-
-  
+    footer img{
+      margin-top: -40px;
+      margin-left: 65px;
+    }
   }
   
   @media all and (min-width: 1200px) {
