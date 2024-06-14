@@ -26,6 +26,7 @@ h1.contact {
     font-size: 16px;
     color: #54585a;
     line-height: 24px;
+    padding: 10px;
 }
 
 .text2 {
@@ -33,9 +34,19 @@ h1.contact {
     text-align: center;
     font-family: "Open Sans", system-ui, sans-serif ;
     font-size: 12px;
-    color: #54585a
+    color: #54585a;
+    padding: 10px;
 
 }
 .Asterisk {
-    color: aquamarine;
+    color: #14d9c4;
+}
+
+form {
+    padding: 30px 15px 60px;;
+}
+
+form label, form input {
+    display: block;
+
 }
