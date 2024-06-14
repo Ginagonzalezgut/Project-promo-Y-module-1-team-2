@@ -11,6 +11,8 @@ $text-primary-color: #54585a;
   display: flex;
   flex-direction: column;
   text-align: center;
+  position: relative;
+  overflow: hidden;
 
   &__title {
     color: $header-background-color;
@@ -40,6 +42,16 @@ $text-primary-color: #54585a;
     @media (min-width: 1200px) {
       width: 439px;
     }
+  }
+
+  &__square {
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%) rotate(45deg);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 0;
   }
 
   @media (min-width: 768px) {
