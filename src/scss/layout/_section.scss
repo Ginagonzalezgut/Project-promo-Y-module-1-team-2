@@ -74,9 +74,10 @@
 
   .center {
     text-align: center;
+    margin: 15px 83px 0;
+    line-height: 1.88;
+    letter-spacing: normal;
   }
-
-/*main*/
 
 .section {
   display: inline-block;
@@ -129,7 +130,6 @@
 
 .rectangle {
   width: 185px;
-  height: 185px;
   border-radius: 4px;
   border: solid 5px;
 }
@@ -138,6 +138,11 @@
   text-align: center;
 } 
 
+.point {
+  display: inline;
+  color: #54585a;
+  padding: 3px;
+}
 
 @media all and (min-width: 768px) {
 .container {
@@ -151,6 +156,14 @@
   text-align: left;
 } 
 
+.prueba {
+  display: flex;
+}
+
+.name {
+  padding: 10px;
+  text-align: right;
+}
 }
 
 @media all and (min-width: 1024px) {
