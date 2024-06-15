@@ -148,9 +148,11 @@
 .person--flex{
   display:flex;
   flex-direction: row;
+  gap:29px;
 }
 
 .person--flex.right {
   flex-direction: row-reverse;
 }
+
 }
