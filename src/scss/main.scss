@@ -1,5 +1,9 @@
 
 @import 'layout/footer';
+<<<<<<< HEAD
+=======
+@import 'layout/section';
+>>>>>>> section
 @import 'layout/header';
 @import 'layout/hero';
 @import 'layout/section';
@@ -21,7 +25,34 @@
     --nav-background-color: #14d9c4;
     --nav-color: #fff;
   }
+<<<<<<< HEAD
 
+=======
+   
+  header {
+    position: sticky;
+    top: 0;
+    color: white;
+  }
+  
+  header h1 {
+    background-color: rgb(9, 157, 141, 0.9);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+  }
+  
+  header ul {
+    background-color: rgb(20, 217, 196, 0.9);
+    display: flex;
+    gap: 10px;
+    font-family: var(--header-color);
+    justify-content: space-between;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+  
+>>>>>>> section
   
   @media all and (min-width: 768px) {
     .hero {
