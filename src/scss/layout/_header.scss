@@ -1,11 +1,12 @@
 header {
   position: sticky;
   top: 0;
-  background-color: rgb(9, 157, 141, 0.9);
+  z-index: 1;
   
 }
 
 header h1 {
+  background-color:  rgb(9, 157, 141, 0.9);
   text-align: center;
   padding: 15px 0;
   font-size: 0.9rem;
