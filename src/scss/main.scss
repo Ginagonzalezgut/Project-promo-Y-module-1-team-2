@@ -1,9 +1,6 @@
 
 @import 'layout/footer';
-<<<<<<< HEAD
-=======
 @import 'layout/section';
->>>>>>> section
 @import 'layout/header';
 @import 'layout/hero';
 @import 'layout/section';
@@ -25,9 +22,7 @@
     --nav-background-color: #14d9c4;
     --nav-color: #fff;
   }
-<<<<<<< HEAD
 
-=======
    
   header {
     position: sticky;
@@ -52,7 +47,6 @@
     font-size: 0.9rem;
   }
   
->>>>>>> section
   
   @media all and (min-width: 768px) {
     .hero {
