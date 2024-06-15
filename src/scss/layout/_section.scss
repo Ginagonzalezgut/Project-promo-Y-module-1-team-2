@@ -150,7 +150,42 @@
   flex-direction: row;
 }
 
+.rectangle {
+  margin: 0 20px;
+}
+
 .person--flex.right {
   flex-direction: row-reverse;
 }
 }
+
+@media all and (min-width: 1024px) {
+  .container {
+    width: 900px;
+  } 
+  .right {
+    text-align: right;
+  }
+  
+  .left {
+    text-align: left;
+  }
+  
+  .name {
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .person--flex{
+    display:flex;
+    flex-direction: row;
+  }
+  
+  .rectangle {
+    margin: 0 30px;
+  }
+  
+  .person--flex.right {
+    flex-direction: row-reverse;
+  }
+  }
