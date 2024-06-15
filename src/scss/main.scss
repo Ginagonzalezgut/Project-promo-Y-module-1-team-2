@@ -4,7 +4,6 @@
 @import 'layout/header';
 @import 'layout/hero';
 @import 'layout/team';
-
 @import 'layout/strength';
 
 :root {
@@ -68,10 +67,9 @@
     }
     
     header h1 {
-      background-color: rgb(20, 217, 196, 0.9);
       text-align: center;
       padding: 15px 0;
-      font-size: 0.9rem;
+      font-size: 15px;
     } 
     header ul {
       background-color: transparent;
@@ -116,10 +114,12 @@
       padding: 16px 45px;
     }
     header h1 {
-      background-color: none;
       text-align: center;
       padding: 15px 0;
-      font-size: 0.9rem;
+      font-size: 16px;
+    }
+    header ul {
+      font-size: 16px;
     }
   }
   
