@@ -148,6 +148,7 @@
 .person--flex{
   display:flex;
   flex-direction: row;
+  gap:29px;
 }
 
 .rectangle {
@@ -157,6 +158,7 @@
 .person--flex.right {
   flex-direction: row-reverse;
 }
+
 }
 
 @media all and (min-width: 1024px) {
