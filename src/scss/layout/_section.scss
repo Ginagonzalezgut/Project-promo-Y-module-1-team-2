@@ -27,12 +27,7 @@
   }
   .person {
     margin: 20px;
-  }
-  .right p {
-    text-align: right;
-  }
-  .left p {
-    text-align: left;
+    text-align: center;
   }
   
   .person img {
@@ -51,9 +46,6 @@
     letter-spacing: normal;
     color: #54585a;
   }
-  .center {
-    text-align: center;
-  }
   .rectangle {
     width: 185px;
     height: 185px;
@@ -66,15 +58,13 @@
   }
   
   .right p, .left p, .person h3 {
-    text-align: center;
     font-family:var(--theme-font);
     font-style: normal;
     font-weight: normal;
   }
 
   .center {
-    text-align: center;
-    margin: 15px 83px 0;
+    margin: 15px 0 0;
     line-height: 1.88;
     letter-spacing: normal;
   }
@@ -103,12 +93,6 @@
 }
 .person {
   margin: 20px;
-}
-.right p {
-  text-align: center;
-}
-.left p {
-  text-align: center;
 }
 
 .person img {
@@ -154,32 +138,19 @@
 
 .left {
   text-align: left;
-} 
-
-.prueba {
-  display: flex;
 }
 
 .name {
   padding: 10px;
   text-align: right;
 }
+
+.person--flex{
+  display:flex;
+  flex-direction: row;
 }
 
-@media all and (min-width: 1024px) {
-  
-  
-  @media all and (min-width: 768px) {
-    .hero {
-      padding: 0 0 0 76px;
-      justify-content: start;
-    }
-  
-    .slogan {
-      background-color: rgba(255, 255, 255, 0.7);
-      width: 441px;
-      height: 80px;
-      top: 0;
-    }
-  }
+.person--flex.right {
+  flex-direction: row-reverse;
+}
 }
