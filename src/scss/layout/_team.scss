@@ -1,0 +1,30 @@
+.team {
+    padding: 76px 15px 30px;
+    text-align: center;
+
+    @media(min-width:768px) {
+        padding: 45px 45px 60px;   
+    }
+
+    @media(min-width:1200px) {
+        padding: 45px 300px 60px;
+    }
+    
+    &__title{
+        font-size: 24px;
+        font-family: "Rubik", system-ui, sans-serif;
+        color: #099d8d;
+        line-height: 1.88;
+        margin-bottom: 15px;
+    }
+    &__text{
+        font-size: 16px;
+        line-height: 1.5;
+        color:var(--text-primary-color);
+
+        &--first{
+            margin-bottom: 24px;
+        }
+    }
+}
+

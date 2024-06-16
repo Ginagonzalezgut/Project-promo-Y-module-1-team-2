@@ -1,12 +1,10 @@
 
 @import 'layout/footer';
-@import 'layout/header';
-
-/*variables que se usaran en todo el proyecto*/
-@import 'layout/hero';
 @import 'layout/section';
-
-@import 'pages/contact';
+@import 'layout/header';
+@import 'layout/hero';
+@import 'layout/team';
+@import 'layout/strength';
 
 :root {
     --heading-font: "Rubik", system-ui, sans-serif;
@@ -22,10 +20,33 @@
     --nav-background-color: #14d9c4;
     --nav-color: #fff;
   }
-
   
- 
+   
+  header {
+    position: sticky;
+    top: 0;
+    color: white;
+    background-color: rgb(9, 157, 141, 0.9);
+    a {
+      color: white;
+    }
+  }
   
+  header h1 {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+  }
+  
+  header ul {
+    background-color: rgb(20, 217, 196, 0.9);
+    display: flex;
+    gap: 10px;
+    font-family: var(--header-color);
+    justify-content: space-between;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
   
   
   @media all and (min-width: 768px) {
@@ -43,15 +64,19 @@
   
     header {
       display: flex;
-      background-color: var(--header-background-color);
       justify-content: space-between;
       align-items: center;
       padding: 16px 45px;
     }
-  
+    
+    header h1 {
+      text-align: center;
+      padding: 15px 0;
+      font-size: 15px;
+    } 
     header ul {
       background-color: transparent;
-    }
+    } 
   
     footer {
       position:relative;
@@ -87,10 +112,17 @@
   @media all and (min-width: 1200px) {
     header {
       display: flex;
-      background-color: rgb(9, 157, 141, 0.95);
       justify-content: space-between;
       align-items: center;
       padding: 16px 45px;
+    }
+    header h1 {
+      text-align: center;
+      padding: 15px 0;
+      font-size: 16px;
+    }
+    header ul {
+      font-size: 16px;
     }
   }
   
