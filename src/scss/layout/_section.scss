@@ -18,21 +18,15 @@
     letter-spacing: normal;
     text-align: center;
     color: #099d8d;
+    margin-bottom: 30px;
   }
   
   .container {
-    width: 800px;
-    margin: 20px auto;
     display: block;
+    padding: 30px 15px;
   }
   .person {
-    margin: 20px;
-  }
-  .right p {
-    text-align: right;
-  }
-  .left p {
-    text-align: left;
+    text-align: center;
   }
   
   .person img {
@@ -51,9 +45,6 @@
     letter-spacing: normal;
     color: #54585a;
   }
-  .center {
-    text-align: center;
-  }
   .rectangle {
     width: 185px;
     height: 185px;
@@ -61,20 +52,14 @@
     border: solid 5px;
   }
   
-  #quienes-somos {
-    margin-top: 50px
-  }
-  
   .right p, .left p, .person h3 {
-    text-align: center;
     font-family:var(--theme-font);
     font-style: normal;
     font-weight: normal;
   }
 
   .center {
-    text-align: center;
-    margin: 15px 83px 0;
+    margin: 15px 0 0;
     line-height: 1.88;
     letter-spacing: normal;
   }
@@ -84,102 +69,96 @@
   margin: auto;
 }
 
-.tittle-section {
-  font-family: "Rubik", system-ui, sans-serif;
-  font-size: 24px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.88;
-  letter-spacing: normal;
-  text-align: center;
-  color: #099d8d;
+.section {
+display: inline-block;
+margin: auto;
 }
-
-.container {
-  width: 290px;
-  margin: 20px auto;
-  display: block;
-}
-.person {
-  margin: 20px;
-}
-.right p {
-  text-align: center;
-}
-.left p {
-  text-align: center;
-}
-
-.person img {
-  width: 180px;
-  border-radius: 4px;
-  border: solid 5px rgba(184, 184, 185, 0.1);
-}
-
-.biografia {
-  font-family: OpenSans;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  color: #54585a;
-}
-
-.rectangle {
-  width: 185px;
-  border-radius: 4px;
-  border: solid 5px;
-}
-
-.person  {
-  text-align: center;
-} 
 
 .point {
-  display: inline;
-  color: #54585a;
-  padding: 3px;
+display: inline;
+color: #54585a;
+padding: 3px;
+}
+
+.person-list{
+  gap: 45px;
+  display: flex;
+  flex-direction: column;
 }
 
 @media all and (min-width: 768px) {
 .container {
-  width: 600px;
+width: auto;
+padding: 45px 45px 60px;
+gap: 60px;
 } 
 .right {
-  text-align: right;
+text-align: right;
 }
 
 .left {
-  text-align: left;
-} 
-
-.prueba {
-  display: flex;
+text-align: left;
 }
 
 .name {
-  padding: 10px;
-  text-align: right;
-}
+padding: 10px;
+text-align: right;
 }
 
-@media all and (min-width: 1024px) {
-  
-  
-  @media all and (min-width: 768px) {
-    .hero {
-      padding: 0 0 0 76px;
-      justify-content: start;
-    }
-  
-    .slogan {
-      background-color: rgba(255, 255, 255, 0.7);
-      width: 441px;
-      height: 80px;
-      top: 0;
-    }
+.person--flex{
+display:flex;
+flex-direction: row;
+gap:29px;
+}
+
+.rectangle {
+margin: 0 20px;
+}
+
+.person--flex.right {
+flex-direction: row-reverse;
+}
+
+  .tittle-section{
+    margin-bottom: 40px;
   }
+}
+
+@media all and (min-width: 1200px) {
+  .container {
+    padding: 45px 138px 60px;
+  } 
+  .right {
+    text-align: right;
+  }
+  
+  .left {
+    text-align: left;
+  }
+  
+  .name {
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .person--flex{
+    display:flex;
+    flex-direction: row;
+  }
+  
+  .rectangle {
+    margin: 0 30px;
+  }
+  
+  .person--flex.right {
+    flex-direction: row-reverse;
+  }
+  }
+
+.rectangle {
+  margin: 0 30px;
+}
+
+.person--flex.right {
+  flex-direction: row-reverse;
 }

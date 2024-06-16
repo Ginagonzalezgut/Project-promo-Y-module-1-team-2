@@ -3,9 +3,7 @@
 @import 'layout/section';
 @import 'layout/header';
 @import 'layout/hero';
-@import 'layout/section';
 @import 'layout/team';
-
 @import 'layout/strength';
 
 :root {
@@ -29,6 +27,9 @@
     top: 0;
     color: white;
     background-color: rgb(9, 157, 141, 0.9);
+    a {
+      color: white;
+    }
   }
   
   header h1 {
@@ -49,18 +50,6 @@
   
   
   @media all and (min-width: 768px) {
-    .hero {
-      padding: 0 0 0 76px;
-      justify-content: start;
-    }
-  
-    .slogan {
-      background-color: rgba(255, 255, 255, 0.7);
-      width: 441px;
-      height: 80px;
-      top: 0;
-    }
-  
     header {
       display: flex;
       justify-content: space-between;
@@ -69,10 +58,9 @@
     }
     
     header h1 {
-      background-color: rgb(20, 217, 196, 0.9);
       text-align: center;
       padding: 15px 0;
-      font-size: 0.9rem;
+      font-size: 15px;
     } 
     header ul {
       background-color: transparent;
@@ -119,10 +107,12 @@
       padding: 16px 45px;
     }
     header h1 {
-      background-color: none;
       text-align: center;
       padding: 15px 0;
-      font-size: 0.9rem;
+      font-size: 16px;
+    }
+    header ul {
+      font-size: 16px;
     }
   }
   
