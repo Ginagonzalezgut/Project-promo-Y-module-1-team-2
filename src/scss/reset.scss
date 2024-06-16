@@ -2,18 +2,19 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    text-decoration: none;
-   
- img {
-    width: 100%;
- }
-    
+
 }
+
 html {
     font-family: var(--theme-font);
     font-size: 16px;
     font-weight: 500;
 }
+
+a {
+    text-decoration: none;
+}
+
 ul {
     list-style-type: none;
 }
