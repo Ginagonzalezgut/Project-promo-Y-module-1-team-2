@@ -80,6 +80,7 @@ form {
         color: white;
         border: none;
         border-radius: 3px;
+        
     }
 
     textarea {
@@ -89,21 +90,20 @@ form {
 }
 
 @media (min-width:768px) {
-    input.button {
+    input.button { 
         width: 206px;
         height: 45px;
-        position: absolute;
-        right: 155px;
+        position: relative;
+        left: 55%;
+        
     }
 }
 
 
 @media (min-width: 1200px) {
-    input.button {
+    input.button { 
         width: 278px;
         height: 45px;
-        position: absolute;
-        right: 380px;
     }
     form {
         max-width: 601px;
