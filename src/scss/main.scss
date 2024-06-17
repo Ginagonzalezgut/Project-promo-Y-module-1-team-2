@@ -6,6 +6,8 @@
 @import 'layout/team';
 @import 'layout/strength';
 
+@import 'pages/contact';
+
 :root {
     --heading-font: "Rubik", system-ui, sans-serif;
     --theme-font: "Open Sans", system-ui, sans-serif;
@@ -27,6 +29,9 @@
     top: 0;
     color: white;
     background-color: rgb(9, 157, 141, 0.9);
+    a {
+      color: white;
+    }
   }
   
   header h1 {
@@ -47,18 +52,6 @@
   
   
   @media all and (min-width: 768px) {
-    .hero {
-      padding: 0 0 0 76px;
-      justify-content: start;
-    }
-  
-    .slogan {
-      background-color: rgba(255, 255, 255, 0.7);
-      width: 441px;
-      height: 80px;
-      top: 0;
-    }
-  
     header {
       display: flex;
       justify-content: space-between;
@@ -78,7 +71,7 @@
     footer {
       position:relative;
       display:block;
-      border-top:1px solid var(--text-primary-color);
+      border-top:1px solid var(--text-secundary-color);
     }
   
     footer nav {
@@ -87,7 +80,7 @@
       right:0;
     }
     footer ul {
-      margin: 45px;
+      margin: 40px;
       line-height:30px;
     }
     footer nav ul li {
@@ -97,12 +90,14 @@
   
     footer h2 {
       text-align:left;
+      margin-top:30px;
       color: var(--text-secundary-color);
       font-size: 14px;
     }
     footer img{
-      margin-top: -40px;
-      margin-left: 65px;
+      margin-top: -5px;
+      margin-left: 35px;
+      
     }
   }
   
