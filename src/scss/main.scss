@@ -1,10 +1,12 @@
-
+@import 'core/reset';
 @import 'layout/footer';
 @import 'layout/section';
 @import 'layout/header';
 @import 'layout/hero';
 @import 'layout/team';
 @import 'layout/strength';
+
+@import 'pages/contact';
 
 :root {
     --heading-font: "Rubik", system-ui, sans-serif;
